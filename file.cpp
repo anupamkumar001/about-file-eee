@@ -31,7 +31,7 @@ int main()
 }
 void mm()
 {
-    tp=fopen("suvo.txt","a");
+    tp=fopen("anupam.txt","a");
 
     printf("\n\n\t\t\t\t\tFIRST NAME       : ");
     scanf("%s",&a.fn);
@@ -48,7 +48,7 @@ void mm()
 }
 void vv()
 {
-    tc=fopen("suvo.txt","r");
+    tc=fopen("anupam.txt","r");
     for(int i=0;i<5;i++)
     {
     fread(&B[i],sizeof(B[i]),1,tc);
